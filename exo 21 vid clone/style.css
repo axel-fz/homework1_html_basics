@@ -1,0 +1,85 @@
+body {
+      font-family: Arial, sans-serif;
+    }
+
+    /* Container for left and right columns */
+    .container {
+      width: 100%;
+    }
+
+    .left-column {
+      width: 60%;
+      float: left;
+      padding-right: 20px;
+    }
+
+    .right-column {
+      width: 35%;
+      float: left;
+      background-color: #f9f9f9;
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    .video {
+      margin-bottom: 20px;
+      overflow: hidden;
+      display: inline-block;
+    }
+
+    .thumbnail {
+      width: 160px;
+      height: 90px;
+      float: left;
+      margin-right: 15px;
+    }
+
+    .video-details {
+      overflow: hidden;
+      display: inline-block;
+      line-height: 40px;
+    }
+
+    .video-title {
+      font-weight: bold;
+      color: #1a0dab;
+      text-decoration: none;
+    }
+
+    .channel,
+    .date {
+      color: #555;
+      font-size: 14px;
+    }
+
+    .view-all {
+      text-align: center;
+      margin-top: 20px;
+      clear: both;
+
+    }
+
+    .view-all a {
+      background-color: #eee;
+      padding: 10px 20px;
+      border-radius: 20px;
+      text-decoration: none;
+      color: #333;
+    }
+
+    .song-title {
+      font-size: 24px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    .song-meta {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .lyrics {
+      font-size: 20px;
+      color: #333;
+    }
